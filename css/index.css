@@ -1,0 +1,143 @@
+
+*{
+	box-sizing: border-box;
+}
+body{
+	margin: 0;
+}
+html{
+	line-height: 1.15;
+}
+
+.apps{
+  background: linear-gradient(skyblue, rgb(129, 42, 129));
+  color: white;
+  display: flex;
+  padding: 20px 80px 0px 80px;
+}
+.apps img{
+  width: 30%;
+}
+
+button{
+  padding: 10px;
+  border: none;
+  background-color: rgb(48, 48, 48);
+  color: white;
+  height: 40px;
+  border-radius: 5px;
+}
+
+.show{
+  text-align: center;
+  padding: 10px;
+  margin: 10px;
+}
+.service{
+  background-color: rgb(89, 89, 181);
+  color: white;
+  text-align: center;  
+  padding: 10px;
+}
+
+.service-box{
+  display: flex;
+  justify-content: center;
+}
+.sevice-icons{
+  padding: 10px;
+  width: 200px;
+}
+.sevice-icons i{
+  background-color: white;
+  color: rgb(89, 89, 181);
+  border-radius: 50px;
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  padding-top: 25px;
+
+}
+.imgs{
+  background-color: white;
+  padding: 10px;
+  text-align: center;
+}
+.img-box{
+  width: 80%;
+  display: flex;
+  margin: auto;
+  color: white;
+  text-align: left;
+}
+.img-half{
+  width: 100%;
+}
+.portfolio1{
+  background-image: url(../imgs/portfolio-1.jpeg);
+  height: 300px;
+  padding: 50px;
+}
+.portfolio2{
+  background-image: url(../imgs/portfolio-2.jpeg);
+  height: 300px;
+  padding: 50px;
+}
+.portfolio3{
+  background-image: url(../imgs/portfolio-3.jpeg);
+  height: 300px;
+  padding: 50px;
+}
+.portfolio4{
+  background-image: url(../imgs/portfolio-4.jpeg);
+  height: 300px;
+  padding: 50px;
+}
+
+.white-border{
+  border: 0px solid white;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  z-index: 2;
+  transition: all 0.5s;
+}
+
+.icons{
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+.footer-icons{
+  background-color: rgb(89, 89, 181);
+  color: white;
+  height: 60px;
+  width: 60px;
+  margin: 15px;
+  border-radius: 50px;
+  padding: 15px;
+  font-size: 30px;
+
+}
+
+/* hover되면 흰테두리생기는거 빼고 다함 */
+.white-border:hover{
+  border: 20px solid white;
+}
+@media screen and (max-width : 768px) { 
+  .apps{
+    display: block;
+    text-align: center;
+  }
+  .apps img{
+    vertical-align: bottom;
+    width: 70%;
+    margin: 0px;
+  }
+  .service-box{
+    flex-direction: column;
+  }
+  .sevice-icons{
+    width: 100%;
+  }
+}
