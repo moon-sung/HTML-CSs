@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+  background-color: #f7f9fc;
+
+}
+div {
+  box-sizing: border-box;
+}
+
+.container{
+  padding: 40px;
+}
+
+.white-box {
+	background: white;
+	padding: 20px;
+	border-radius: 5px;
+	box-shadow: 0.5px 0.5px 2px 1px #eee;
+}
+.left-border{
+  padding: 50px;
+  border-left: 2px solid #eee;
+}
+img{
+  width: 150px;
+}
